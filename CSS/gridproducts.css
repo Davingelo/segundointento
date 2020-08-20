@@ -1,0 +1,152 @@
+:root{    
+    --anchocolumn: 8.333333333%;
+    --green-color:#7acc2d;
+    --white-color: whitesmoke;
+    --black-color:#313337;
+/* Espaciados */
+    --space: 10px;
+/* ipografia */
+    --normal: 12px;
+/* Box Shadow */
+    --Box: 5px 6px 2px #bfbfbf;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    background-color: var(--green-color);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+nav ul{
+    display: flex;
+    padding-right: 20px;
+    
+}
+
+nav ul li{
+    color: var(--black-color);
+    list-style: none;
+    padding-left: 20px;
+}
+
+nav ul li a{
+    color: var(--black-color);
+    text-decoration: none;
+    text-shadow: var(--black-color);
+  
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+.brand_image{
+    padding-top: 7px;
+    padding-left: 7px ;
+}
+
+.container{
+    /* background-color: var(--green-color); */
+    margin: auto;
+    margin-top: 5%;
+}
+.productos{
+    font-size: 20px;
+}
+
+.col1{
+    width: calc(var(--anchocolumn) *1);
+}
+
+.col2{
+    width: calc(var(--anchocolumn) *2);
+}
+
+.col3{
+    width: calc(var(--anchocolumn) *3);
+}
+
+.col4{
+    width: calc(var(--anchocolumn) *4);
+}
+
+.col5{
+    width: calc(var(--anchocolumn) *5);
+}
+
+.col6{
+    width: calc(var(--anchocolumn) *6);
+}
+
+.col7{
+    width: calc(var(--anchocolumn) *7);
+}
+
+.col8{
+    width: calc(var(--anchocolumn) *8);
+}
+
+.col9{
+    width: calc(var(--anchocolumn) *9);
+}
+
+.col10{
+    width: calc(var(--anchocolumn) *10);
+}
+
+.col11{
+    width: calc(var(--anchocolumn) *11);
+}
+
+.col12{
+    width: calc(var(--anchocolumn) *12);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between 15px;
+}
+
+[class*="col"]{
+    font-size: 30px;
+    padding: 10px;
+    /* background-color:whitesmoke; */
+    text-align: center;
+    
+}
+
+/* Estilos de los parrafos de productos */
+
+.tittle2{
+    font-size: 20px;
+    text-align: left;
+}
+
+.paragraph{
+    font-size: 15px;
+    text-align: left;
+
+}
+
+footer{
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer div{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+footer div p{
+    color: whitesmoke;
+}

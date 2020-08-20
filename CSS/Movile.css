@@ -1,0 +1,19 @@
+@media (max-width: 600Px) {
+   .products {
+       display: inherit;
+       height: auto;
+   }
+
+   .product{
+       margin-top: 2%;
+
+   }
+
+   .benefit{
+       display: inherit;
+   }
+
+   .comment_group{
+       display: inherit;
+   }
+}
